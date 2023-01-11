@@ -48,6 +48,6 @@ ll dp_binomial(ll n, ll r, ll p) {
 
 int main() {
     ll n = 10, r = 5, p = 1000;
-    cout << dp_binomial(n,r,p) << "\n";
+    cout << binomial(n,r,p) << "\n";
     cout << dp_binomial(n,r,p);
 }
