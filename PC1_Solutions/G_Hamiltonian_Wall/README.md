@@ -11,3 +11,5 @@ Now, moving along the row, we need to know at which position we were in the prev
 Arbitrarily defining the previous states into 3 categories, 1 if only upper cell is black, 2 if only lower cell is black and 3 if both were black and removing the last element from the stack if previous and current states are both 3 as an even number of both black columns doesn't affect the path, we start and end in the same row when we pass through it.
 
 In the end, with the elements left in the stack, we just have to check if a path is valid. We can only go from 1 to 1, 2 from 2 and if there's a 3, we have to switch sides
+
+(By sides , we mean rows)
