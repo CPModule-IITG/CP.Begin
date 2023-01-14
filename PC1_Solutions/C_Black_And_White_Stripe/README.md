@@ -1,4 +1,4 @@
-#Black And White Stripes
+###Black And White Stripes###
 
 Essentially we plan to look into all the possible contigious subarrays of size k and find how many W's we need to change to convert all of them to B's. To do this, we can simply go through all subarrays which we do by applying a loop from 0 to n-k+1.
 
