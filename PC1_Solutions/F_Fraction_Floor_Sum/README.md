@@ -12,7 +12,10 @@ Now for all $j$ from $1,2,3...k$ let us find the number of i such that $[\frac{N
 Now considering the other case when $[\frac{N}{i}] > k$
 In this case, $\frac{N}{i} >= k+1$ , so $i <= \frac{N}{k+1}$. Since $k = \sqrt{N}$ this indicates $i < \sqrt{N}$ ,that is there are atmost $\sqrt{N}$ such positive integers , which can be summed up one by one within time constraint
 
-so the overall sum can be expressed as 
-summation from 1 to k (k*([N/k]-[N/(k+1)]])) + summation from 1 to [N/(k+1)]*([n/i])
+so the overall sum can be expressed as
 
-Both of these sums can be computed in O(sqrt(N)), so the problem has been solved
+$$
+\sum_{i=1}^k k*\left([\frac{N}{i}] - [\frac{N}{i+1}]  \right) + \sum_{i=1}^[\frac{N}{k+1}]\left([\frac{N}{i}]\right)
+$$
+
+Both of these sums can be computed in O($\sqrt{N}$), so the problem has been solved
