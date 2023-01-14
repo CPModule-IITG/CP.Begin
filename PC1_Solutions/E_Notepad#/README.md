@@ -1,4 +1,4 @@
-#Notepad
+[Notepad](https://codeforces.com/problemset/problem/1766/B)
 
 Think about it...why has it been asked id it os possible to print it in less than n operations instead of the general "Print the min no of operations".... 
     

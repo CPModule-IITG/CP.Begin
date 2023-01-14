@@ -1,4 +1,4 @@
-#Fraction Floor Sum
+[Fraction Floor Sum](https://atcoder.jp/contests/abc230/tasks/abc230_e?lang=en)
 
 The problem statement requires us to find for a given integer N , the value of [N/1]+[N/2]+[N/3]+...[N/N] where [] represents the greatest integer function or the floor function
 

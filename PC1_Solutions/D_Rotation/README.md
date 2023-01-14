@@ -1,4 +1,4 @@
-#Rotation
+[Rotation](https://atcoder.jp/contests/abc258/tasks/abc258_c?lang=en)
 
 The problem statement asks to “remove the last character of S and prepend it,” but 
 if this operations is naively performed x times, it will cost an O(NQ) time complexity .

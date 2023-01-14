@@ -1,4 +1,4 @@
-#Hamiltonian Wall
+[Hamiltonian Wall](https://codeforces.com/problemset/problem/1766/C)
 
 Why is there a constraint of each column having at least one black cell? Does the problem change a lot if there were white columns? Well, if such a column was inbetween some black cells, then the answer would be "NO". If it was on the side of the grid, you could remove it and proceed to solve without it. So, that doesn't really change the problem other than removing some casework.
 
