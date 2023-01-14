@@ -15,7 +15,7 @@ In this case, $\frac{N}{i} >= k+1$ , so $i <= \frac{N}{k+1}$. Since $k = \sqrt{N
 so the overall sum can be expressed as
 
 $$
-\sum_{i=1}^k k*\left(\left[\frac{N}{i}\right] - \left[\frac{N}{i+1}\right]  \right) + \sum_{i=1}^\left[\frac{N}{k+1}\right]\left(\left[\frac{N}{i}\right]\right)
+\sum_{i=1}^k k \times \left(\left[\frac{N}{i}\right] - \left[\frac{N}{i+1}\right]  \right) + \sum_{i=1}^\left[\frac{N}{k+1}\right]\left(\left[\frac{N}{i}\right]\right)
 $$
 
 Both of these sums can be computed in O( $\sqrt{N}$ ), so the problem has been solved
