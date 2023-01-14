@@ -1,7 +1,7 @@
 for _ in range(int(input())):
     n,k = map(int,input().split())
     s = input()
-    l = [0 for i in range(n+1)] #construct an array with n+1 zeros. this array would later be used to store the no of B's that occured so far (i,e) ith index of L would indicate the total no of B's before s[i]. 
+    l = [0 for i in range(n+1)] #construct an array with n+1 zeros. this array would later be used to store the no of W's that occured so far (i,e) ith index of L would indicate the total no of W's before s[i] including s[i]. 
 
     for i in range(1,n+1): # Building the prefix array
         l[i] = l[i-1] 
