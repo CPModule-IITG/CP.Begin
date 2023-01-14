@@ -4,7 +4,7 @@ The problem statement requires us to find for a given integer N , the value of [
 
 Note that [N/i] will always lie between 1 to N for every i from 1 to N
 
-Now looking at the constraints given for the problem, we are given N<=10^12, so we can not naively calculate the value of [N/i] for all i from 1 to N and add it to find the sum
+Now looking at the constraints given for the problem, we are given N<=10^12, so we can not naively calculate the value of $\frac{N}{i}$ for all i from 1 to N and add it to find the sum
 
 So let us break the sum into two cases by assuming k=sqrt(N)
 Now for all j from 1,2,3...k let us find the number of i such that [N/i]=j,that is, j <= N/i < j+1 or N/(j+1) <= i < N/j, so the number of such integers i wil be ([N/j]-[N/(j+1)])
