@@ -4,7 +4,7 @@ The problem statement requires us to find for a given integer $N$ , the value of
 
 Note that $\left[\frac{N}{i}\right]$ will always lie between $1$ to $N$ for every $i$ from $1$ to $N$
 
-Now looking at the constraints given for the problem, we are given $N <= 10^12$, so we can not naively calculate the value of $\left[\frac{N}{i}\right]$ for all $i$ from $1$ to $N$ and add it to find the sum
+Now looking at the constraints given for the problem, we are given $N <= 10^{12}$, so we can not naively calculate the value of $\left[\frac{N}{i}\right]$ for all $i$ from $1$ to $N$ and add it to find the sum
 
 So let us break the sum into two cases by assuming $k = \sqrt{N}$
 Now for all $j$ from $1,2,3...k$ let us find the number of i such that $\left[\frac{N}{i}\right] = j$,that is, $j <= \frac{N}{i} < j+1$ or $\frac{N}{j+1} <= i < \frac{N}{j}$, so the number of such integers $i$ wil be $\left[\frac{N}{j}\right]-\left[\frac{N}{j+1}\right]$
