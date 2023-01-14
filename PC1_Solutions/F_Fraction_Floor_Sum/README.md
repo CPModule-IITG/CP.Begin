@@ -16,3 +16,5 @@ so the overall sum can be expressed as
 summation from 1 to k (k*([N/k]-[N/(k+1)]])) + summation from 1 to [N/(k+1)]*([n/i])
 
 Both of these sums can be computed in O(sqrt(N)), so the problem has been solved
+
+ $\sqrt{3x-1}+(1+x)^2$
