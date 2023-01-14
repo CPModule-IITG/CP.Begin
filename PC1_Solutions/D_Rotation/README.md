@@ -5,7 +5,7 @@ if this operations is naively performed $x$ times, it will cost an O( $nq$ ) tim
 If we analyze the worst case possibility of $nq$ , as $N <= 5 \times 10^5$ and $Q <= 5 \times 10^5$ , $nq <= 25 \times 10^{10}$
 
 A c++ code will take around 1 second to execute a code with time complexity upto $10^7$ .
-As the worst case possibility of $nq$ is around $10^10$ it is 1000 times more than $10^7$ hence it does not fit in the execution time limit under the given constraints, so we will have to use a more optimized approach :) !
+As the worst case possibility of $nq$ is around $10^{10}$ it is 1000 times more than $10^7$ hence it does not fit in the execution time limit under the given constraints, so we will have to use a more optimized approach :) !
 
 For simplicity, we will use zero-based index for S.
 
