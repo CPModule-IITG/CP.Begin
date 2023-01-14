@@ -20,7 +20,7 @@ the other end again .
 Now, whenever we get a query `2 x` , we will have to output the $x-1$ th string from the 
 startindex as the questing uses 1-based indexing .
 Observe that $startindex + b - 1$ can be more than size of the given string, hence we
-output the  $( startindex + b - 1 )\mod n $ index character in the given string, which ensures 
+output the  $( startindex + b - 1 )\mod n$ index character in the given string, which ensures 
 that if the required character's index goes beyond the size we again start from zero .
 ​
 Thus, the problem will be solved in a much fast way than before !
