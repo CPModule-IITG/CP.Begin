@@ -13,5 +13,5 @@ index 2 -> $p[p[2]] = p[1] = 2$
 index 3 -> $p[p[3]] = p[4] = 3$         
 and so on ... 
 
-Hence, the property $p[p[i]] = i$ and $p[i] \neq i $  is satisfied for all indexes.
+Hence, the property $p[p[i]] = i$ and $p[i] \neq i$  is satisfied for all indexes.
 
