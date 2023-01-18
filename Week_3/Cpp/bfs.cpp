@@ -22,7 +22,7 @@ int main() {
     // vis will store if the vertex i is visited for index i
     vector<bool> vis(n+1,false);
 
-    // this will print the sequence of vertices which our dfs functions visits
+    // this will print the sequence of vertices which our bfs functions visits
     queue<ll> q;
     q.push(1);
     vis[1] = true;
